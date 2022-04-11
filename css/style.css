@@ -1,6 +1,11 @@
 /*------ general ------*/
 body {
     font-family: 'Open Sans', sans-serif;
+    height: 600vh;
+}
+hr {
+    border: 2px solid black;
+    margin: 30px 0;
 }
 
 /*------ header ------*/
@@ -23,4 +28,39 @@ header {
 }
 
 /*------ main ------*/
-/*------ jumbotron ------*/
+.jumbotron {
+    height: 600px;
+    background-color: #1abc9c;
+}
+/*------ hero ------*/
+.hero {
+    height: 600px;
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    background-color: lightcoral;
+}
+.hero img {
+    max-width: 50%;
+    margin: auto;
+}
+
+/*------ section1 ------*/
+.portfolio {
+    text-align: center;
+}
+
+/*------ section2 ------*/
+.about-bg {
+    background-color: #1abc9c;
+}
+.about ,.form {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+.about button {
+    margin-top: 20px;
+}
+
+/*------ section3 ------*/
