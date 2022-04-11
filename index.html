@@ -28,13 +28,18 @@
                     </div>
                     <!------ header nav ------>
                     <div class="col-6 d-flex align-items-center justify-content-end">
-                        <nav>
+                        <!------ header nav lg e md ------>
+                        <nav class="d-none d-sm-block">
                             <ul class="d-flex header-nav">
                                 <li class="px-3"><a href="#">portfolio</a></li>
                                 <li class="px-3"><a href="#">about</a></li>
                                 <li class="px-3"><a href="#">contact</a></li>
                             </ul>
                         </nav>
+                        <!------ header nav lg e md ------>
+                        <div class="d-block d-sm-none">
+                            <i class="burger fa-solid fa-bars"></i>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -110,30 +115,30 @@
             <div class="footer-top py-5">
                 <div class="container">
                     <div class="row">
-                        <div class="col-12 col-md-4 my-2">
+                        <div class="col-12 col-md-4 my-4">
                             <h4>location</h4>
                             <p>2215 John Daniel Drive Clark, MO 54243</p>
                         </div>
-                        <div class="col-12 col-md-4 my-2">
+                        <div class="col-12 col-md-4 my-4">
                             <h4>around the web</h4>
-                            <nav>
-                                <ul>
-                                    <li>
+                            <nav class="footer-nav">
+                                <ul class="d-flex justify-content-center footer-nav">
+                                    <li class="mx-2 social">
                                         <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
                                     </li>
-                                    <li>
+                                    <li class="mx-2 social">
                                         <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
                                     </li>
-                                    <li>
+                                    <li class="mx-2 social">
                                         <a href="#"><i class="fa-brands fa-twitter"></i></a>
                                     </li>
-                                    <li>
+                                    <li class="mx-2 social">
                                         <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
                                     </li>
                                 </ul>
                             </nav>
                         </div>
-                        <div class="col-12 col-md-4 my-2">
+                        <div class="col-12 col-md-4 my-4">
                             <h4>about freelancer</h4>
                             <p>Freelance is a free to use, open source Bootstrap theme create by <a href="#">Start Bootstrap</a>.</p>
                         </div>

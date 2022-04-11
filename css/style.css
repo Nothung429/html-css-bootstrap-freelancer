@@ -18,17 +18,25 @@ header {
     background-color: #2c3e50;
     text-transform: uppercase;
 }
-.header-nav {
+.header-nav ,.footer-nav {
+    padding: 0;
     margin: 0;
 }
-.header-nav li {
+.header-nav li ,.footer-nav li {
     list-style: none;
 }
-.header-nav li a ,h1 {
+.header-nav li a ,h1 ,.footer-nav li a {
     text-decoration: none;
     color: #fff;
     font-weight: 700;
     margin: 0;
+}
+.burger {
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    font-size: 24px;
+    padding: 10px;
 }
 
 /*------ main ------*/
@@ -42,7 +50,6 @@ header {
     max-width: 600px;
     margin: auto;
     text-align: center;
-    background-color: lightcoral;
 }
 .hero img {
     max-width: 50%;
@@ -104,4 +111,16 @@ header {
 }
 .credits p {
     margin: 0;
+}
+.social {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+.social a {
+    line-height: 50px;
+    text-align: center;
+    font-size: 20px;
+    padding: 15px;
 }
