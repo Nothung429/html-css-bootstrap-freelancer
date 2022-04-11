@@ -31,14 +31,22 @@
                         <!------ header nav lg e md ------>
                         <nav class="d-none d-sm-block">
                             <ul class="d-flex header-nav">
-                                <li class="px-3"><a href="#">portfolio</a></li>
-                                <li class="px-3"><a href="#">about</a></li>
-                                <li class="px-3"><a href="#">contact</a></li>
+                                <li class="px-3">
+                                    <a href="#first">portfolio</a>
+                                </li>
+                                <li class="px-3">
+                                    <a href="#second">about</a>
+                                </li>
+                                <li class="px-3">
+                                    <a href="#third">contact</a>
+                                </li>
                             </ul>
                         </nav>
                         <!------ header nav lg e md ------>
                         <div class="d-block d-sm-none">
-                            <i class="burger fa-solid fa-bars"></i>
+                            <a href="#">
+                                <i class="burger fa-solid fa-bars"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -57,7 +65,7 @@
             </div>
             <!------ section1 ------>
             <div class="container">
-                <section class="portfolio my-5">
+                <section id="first" class="portfolio my-5">
                     <h2>portfolio</h2>
                     <hr class="deco">
                     <div class="row">
@@ -84,7 +92,7 @@
             </div>
             <!------ section2 ------>
             <div class="about-bg">
-                <section class="about py-5">
+                <section id="second" class="about py-5">
                     <h2>about</h2>
                     <hr class="deco">
                     <div class="row">
@@ -95,7 +103,7 @@
                 </section>
             </div>
             <!------ section3 ------>
-            <section class="form py-5">
+            <section id="third" class="form py-5">
                 <h2>contact me</h2>
                 <hr class="deco">
                 <div class="comp">
@@ -107,7 +115,7 @@
                     <hr>
                     <textarea placeholder="Message" name="message" rows="8" cols="80"></textarea>
                 </div>
-                <input type="submit" value="Send">
+                <input type="submit" value="Send" class="send">
             </section>
         </main>
 
@@ -124,16 +132,24 @@
                             <nav class="footer-nav">
                                 <ul class="d-flex justify-content-center footer-nav">
                                     <li class="mx-2 social">
-                                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                        <a href="#">
+                                            <i class="fa-brands fa-facebook-f"></i>
+                                        </a>
                                     </li>
                                     <li class="mx-2 social">
-                                        <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+                                        <a href="#">
+                                            <i class="fa-brands fa-google-plus-g"></i>
+                                        </a>
                                     </li>
                                     <li class="mx-2 social">
-                                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                        <a href="#">
+                                            <i class="fa-brands fa-twitter"></i>
+                                        </a>
                                     </li>
                                     <li class="mx-2 social">
-                                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                        <a href="#">
+                                            <i class="fa-brands fa-linkedin-in"></i>
+                                        </a>
                                     </li>
                                 </ul>
                             </nav>
