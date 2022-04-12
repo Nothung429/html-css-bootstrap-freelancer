@@ -70,6 +70,10 @@ header {
     color: #fff;
     margin: 0;
 }
+.header-nav li a:hover {
+    text-decoration: underline;
+    text-decoration-color: #adff2f;
+}
 .burger {
     color: #fff;
     border: 1px solid #fff;
@@ -176,14 +180,18 @@ header {
     text-align: center;
 }
 .social {
-    height: 40px;
-    width: 40px;
+    height: 50px;
+    width: 50px;
     border-radius: 50%;
     border: 1px solid #fff;
     font-size: 20px;
 }
+.social:hover {
+    transition: background-color 0.8s;
+    background-color: #1abc9c;
+}
 .social a {
-    line-height: 40px;
+    line-height: 50px;
     text-align: center;
     font-size: 20px;
     padding: 10px;
