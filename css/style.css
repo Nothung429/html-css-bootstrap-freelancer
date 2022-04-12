@@ -7,9 +7,16 @@ body {
     margin: 30px 0;
     opacity: 1;
 }
-hr {
-    border: 2px solid green;
-    opacity: 1;
+
+/*------ background color ------*/
+.bg-color-1 {
+    background-color: #2c3e50;
+}
+.bg-color-2 {
+    background-color: #1abc9c;
+}
+.bg-color-3 {
+    background-color: #3a546d;
 }
 
 /*------ title typo ------*/
@@ -21,7 +28,6 @@ h1 ,h2 ,h4 {
 /*------ header ------*/
 header {
     height: 80px;
-    background-color: #2c3e50;
     text-transform: uppercase;
 }
 .header-nav ,.footer-nav {
@@ -45,20 +51,23 @@ header {
 }
 
 /*------ main ------*/
-.jumbotron {
-    height: 600px;
-    background-color: #1abc9c;
-}
 /*------ hero ------*/
 .hero {
-    height: 600px;
-    max-width: 600px;
+    width: 50%;
     margin: auto;
     text-align: center;
+    color: #fff;
 }
 .hero img {
-    max-width: 50%;
+    width: 50%;
     margin: auto;
+}
+.hero h2 {
+    font-size: 40px;
+}
+.hero p {
+    text-transform: uppercase;
+    font-size: 18px;
 }
 
 /*------ section1 ------*/
@@ -67,13 +76,11 @@ header {
 }
 
 /*------ section2 ------*/
-.about-bg {
-    background-color: #1abc9c;
-}
 .about {
-    max-width: 800px;
+    width: 70%;
     margin: auto;
     text-align: center;
+    color: #fff;
 }
 .about button {
     margin-top: 20px;
@@ -81,49 +88,55 @@ header {
 
 /*------ section3 ------*/
 .form {
-    max-width: 740px;
+    width: 60%;
     margin: auto;
 }
 .form h2 {
     text-align: center;
 }
 .comp input {
+    padding-bottom: 5px;
+    margin: 5px 0;
     border: none;
-    color: #000;
+    border-bottom: 1px solid #cccccc;
     width: 100%;
 }
 .comp textarea {
     width: 100%;
     height: 100px;
     border: none;
-    border-bottom: 1px solid black;
-    color: #000;
+    border-bottom: 1px solid #cccccc;
+}
+::placeholder {
+    color: #2c3e50;
 }
 
 /*------ footer ------*/
 .footer-top {
-    background-color: #3a546d;
     color: #fff;
     text-align: center;
-}
-.footer-bottom {
-    background-color: #2c3e50;
-    color: #fff;
-    text-align: center;
-}
-.credits p {
-    margin: 0;
 }
 .social {
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     border-radius: 50%;
     border: 1px solid #fff;
     font-size: 20px;
 }
 .social a {
-    line-height: 50px;
+    line-height: 40px;
     text-align: center;
     font-size: 20px;
-    padding: 15px;
+    padding: 10px;
+}
+.left p a {
+    text-decoration: none;
+    color: #1abc9c;
+}
+.footer-bottom {
+    color: #fff;
+    text-align: center;
+}
+.credits p {
+    margin: 0;
 }
